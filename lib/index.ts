@@ -1,8 +1,7 @@
-// Faster, more efficient alternative to populating a new array using your own loop and
-// adding to it with array.push()
-// `getItemValue(index, arr)` returns the value to be assigned to `arr`[`index`]
+// Fast, efficient function for populating a new array.
+// `getItemValue(index, array)` returns the value to be assigned to `array[index]`
 
-export function getArrFilled(length, getItemValue: (index?, arr?) => any): any[] {
+export function getArrFilled(length, getItemValue: (index?, array?) => any): any[] {
 	let arr = new Array(length);
 	let i = -1;
 

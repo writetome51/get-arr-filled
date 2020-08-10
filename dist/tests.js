@@ -26,5 +26,7 @@ function getCountdown(start, end, increment = -1) {
 	return getCount(start, end, increment);
 }
 
-
-console.log(getCountdown(20, 1.5));
+console.time('check');
+let arr = getCountdown(200, 1);
+console.timeEnd('check');
+console.log(arr.length);
