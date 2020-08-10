@@ -1,0 +1,32 @@
+{
+  "name": "@writetome51/get-arr-filled",
+  "version": "0.0.1",
+  "description": "Populates and returns a new array using a provided callback function",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/get-arr-filled.git"
+  },
+  "bugs": {
+    "url": "https://github.com/writetome51/get-arr-filled/issues"
+  },
+  "homepage": "https://github.com/writetome51/get-arr-filled#readme",
+  "keywords": [
+    "array",
+    "populate",
+    "fill",
+    "callback",
+    "function",
+    "fast"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+  }
+}
