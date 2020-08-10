@@ -1,4 +1,4 @@
-# getArrFilled(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;length: number,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;getItemValue: (index, array?) => any<br>): any[]
+# getArrFilled(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;length: number,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;getItemValue: (index?, array?) => any<br>): any[]
 
 
 

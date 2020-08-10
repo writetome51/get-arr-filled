@@ -2,7 +2,7 @@
 // adding to it with array.push()
 // `getItemValue(index, arr)` returns the value to be assigned to `arr`[`index`]
 
-export function getArrFilled(length, getItemValue: (index, arr?) => any): any[] {
+export function getArrFilled(length, getItemValue: (index?, arr?) => any): any[] {
 	let arr = new Array(length);
 	let i = -1;
 
