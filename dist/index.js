@@ -6,7 +6,7 @@ export function getArrFilled(length, getItemValue) {
 	let i = -1;
 
 	// after creating array using `new Array(length)`, adding to array using `arr[i] = value`
-	// instead of `arr.push(value)` is several milliseconds faster.
+	// instead of `arr.push(value)` is milliseconds faster.
 
 	while (++i < length) arr[i] = getItemValue(i, arr);
 	return arr;

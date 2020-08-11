@@ -26,7 +26,8 @@
   ],
   "author": "Steve Thompson",
   "license": "MIT",
-  "devDependencies": {},
-  "dependencies": {
-  }
+  "devDependencies": {
+    "@writetome51/arrays-match": "^2.0.0"
+  },
+  "dependencies": {}
 }
