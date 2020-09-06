@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-arr-filled",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Populates and returns a new array using a provided callback function",
   "type": "module",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "devDependencies": {
-    "@writetome51/arrays-match": "^2.0.1"
+    "@writetome51/arrays-match": ">=2.0.2"
   },
   "dependencies": {}
 }
