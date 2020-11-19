@@ -83,3 +83,37 @@ try {
 if (errTriggered) console.log('test 9 passed');
 else console.log('test 9 FAILED');
 
+
+
+// Ad hoc tests:
+
+
+export function getByIndexes(indexes, array) {
+	return getArrFilled(indexes.length, (i) => array[indexes[i]]);
+}
+
+console.log(getByIndexes([1,3,5], ['a','b','c','d','e','f']));
+// ['b','d','f']
+
+
+function getFibonacci(n) {
+	let sequence = getArrFilled(
+		n,
+		(i, arr) => i > 1 ? arr[i-2] + arr[i-1] : 1
+	);
+	return sequence[n - 1];
+}
+
+console.log(getFibonacci(1));
+// 1
+console.log(getFibonacci(2));
+// 1
+console.log(getFibonacci(3));
+// 2
+console.log(getFibonacci(6));
+// 8
+console.log(getFibonacci(7));
+// 13
+console.log(getFibonacci(8));
+// 21
+
