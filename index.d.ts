@@ -1,4 +1,4 @@
-export declare function getArrFilled(
+export declare function getArrFilled<T>(
 	length: number,
-	getItemValue: (index?: number, array?: any[]) => any
-): any[];
+	getItemValue: (index?: number, array?: T[]) => T
+): T[];

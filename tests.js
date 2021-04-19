@@ -1,6 +1,7 @@
 import {getArrFilled} from './index.js';
 import {arraysMatch} from '@writetome51/arrays-match';
 
+
 // Create new function to test getArrFilled():
 
 // `increment` must be negative if you want the count to go down.
@@ -104,6 +105,8 @@ function getFibonacci(n) {
 	return sequence[n - 1];
 }
 
+console.time('test');
+
 console.log(getFibonacci(1));
 // 1
 console.log(getFibonacci(2));
@@ -117,3 +120,7 @@ console.log(getFibonacci(7));
 console.log(getFibonacci(8));
 // 21
 
+let numbers = getArrFilled(5, (i) => i + 1);
+console.log(numbers);
+
+console.timeEnd('test');
